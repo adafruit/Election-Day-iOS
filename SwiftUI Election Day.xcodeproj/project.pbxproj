@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2923273A24EB9E9B0043420B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923273924EB9E9B0043420B /* DetailView.swift */; };
+		2923273C24EC45850043420B /* CandidateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923273B24EC45850043420B /* CandidateInfo.swift */; };
+		299F97CB24D9279E00DBA0F4 /* SwiftUI_Election_DayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F97CA24D9279E00DBA0F4 /* SwiftUI_Election_DayApp.swift */; };
+		299F97CD24D9279E00DBA0F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F97CC24D9279E00DBA0F4 /* ContentView.swift */; };
+		299F97CF24D9279E00DBA0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299F97CE24D9279E00DBA0F4 /* Assets.xcassets */; };
+		299F97D224D9279E00DBA0F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299F97D124D9279E00DBA0F4 /* Preview Assets.xcassets */; };
+		29BFABB324E3230500EEB568 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFABB224E3230500EEB568 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2923273924EB9E9B0043420B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2923273B24EC45850043420B /* CandidateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateInfo.swift; sourceTree = "<group>"; };
+		299F97C724D9279E00DBA0F4 /* SwiftUI Election Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Election Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299F97CA24D9279E00DBA0F4 /* SwiftUI_Election_DayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Election_DayApp.swift; sourceTree = "<group>"; };
+		299F97CC24D9279E00DBA0F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		299F97CE24D9279E00DBA0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299F97D124D9279E00DBA0F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		299F97D324D9279E00DBA0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BFABB224E3230500EEB568 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299F97C424D9279E00DBA0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299F97BE24D9279E00DBA0F4 = {
+			isa = PBXGroup;
+			children = (
+				299F97C924D9279E00DBA0F4 /* SwiftUI Election Day */,
+				299F97C824D9279E00DBA0F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299F97C824D9279E00DBA0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299F97C724D9279E00DBA0F4 /* SwiftUI Election Day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299F97C924D9279E00DBA0F4 /* SwiftUI Election Day */ = {
+			isa = PBXGroup;
+			children = (
+				299F97CA24D9279E00DBA0F4 /* SwiftUI_Election_DayApp.swift */,
+				299F97CC24D9279E00DBA0F4 /* ContentView.swift */,
+				29BFABB224E3230500EEB568 /* LocationManager.swift */,
+				2923273924EB9E9B0043420B /* DetailView.swift */,
+				2923273B24EC45850043420B /* CandidateInfo.swift */,
+				299F97CE24D9279E00DBA0F4 /* Assets.xcassets */,
+				299F97D324D9279E00DBA0F4 /* Info.plist */,
+				299F97D024D9279E00DBA0F4 /* Preview Content */,
+			);
+			path = "SwiftUI Election Day";
+			sourceTree = "<group>";
+		};
+		299F97D024D9279E00DBA0F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				299F97D124D9279E00DBA0F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299F97C624D9279E00DBA0F4 /* SwiftUI Election Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299F97D624D9279E00DBA0F4 /* Build configuration list for PBXNativeTarget "SwiftUI Election Day" */;
+			buildPhases = (
+				299F97C324D9279E00DBA0F4 /* Sources */,
+				299F97C424D9279E00DBA0F4 /* Frameworks */,
+				299F97C524D9279E00DBA0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Election Day";
+			productName = "SwiftUI Election Day";
+			productReference = 299F97C724D9279E00DBA0F4 /* SwiftUI Election Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299F97BF24D9279E00DBA0F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					299F97C624D9279E00DBA0F4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 299F97C224D9279E00DBA0F4 /* Build configuration list for PBXProject "SwiftUI Election Day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299F97BE24D9279E00DBA0F4;
+			productRefGroup = 299F97C824D9279E00DBA0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299F97C624D9279E00DBA0F4 /* SwiftUI Election Day */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299F97C524D9279E00DBA0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299F97D224D9279E00DBA0F4 /* Preview Assets.xcassets in Resources */,
+				299F97CF24D9279E00DBA0F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299F97C324D9279E00DBA0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299F97CD24D9279E00DBA0F4 /* ContentView.swift in Sources */,
+				2923273A24EB9E9B0043420B /* DetailView.swift in Sources */,
+				2923273C24EC45850043420B /* CandidateInfo.swift in Sources */,
+				299F97CB24D9279E00DBA0F4 /* SwiftUI_Election_DayApp.swift in Sources */,
+				29BFABB324E3230500EEB568 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		299F97D424D9279E00DBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		299F97D524D9279E00DBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299F97D724D9279E00DBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Election Day/Preview Content\"";
+				DEVELOPMENT_TEAM = 2X94RM7457;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Election Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TrevorB.SwiftUI-Election-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		299F97D824D9279E00DBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Election Day/Preview Content\"";
+				DEVELOPMENT_TEAM = 2X94RM7457;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Election Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TrevorB.SwiftUI-Election-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299F97C224D9279E00DBA0F4 /* Build configuration list for PBXProject "SwiftUI Election Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299F97D424D9279E00DBA0F4 /* Debug */,
+				299F97D524D9279E00DBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299F97D624D9279E00DBA0F4 /* Build configuration list for PBXNativeTarget "SwiftUI Election Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299F97D724D9279E00DBA0F4 /* Debug */,
+				299F97D824D9279E00DBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 299F97BF24D9279E00DBA0F4 /* Project object */;
+}
